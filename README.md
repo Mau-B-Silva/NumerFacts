@@ -66,13 +66,13 @@ git clone https://github.com/Mau-B-Silva/NumerFacts.git
 cd NumerFacts
 ```
 
-2️⃣ Install Dependencies
+### **2️⃣ Install Dependencies**
 If you have pip, install dependencies with:
 ```sh
 pip install -r requirements.txt
 ```
 
-3️⃣ Running the Models
+### **3️⃣ Running the Models**
 The model scripts require:
 ✅ A Hugging Face API token for authentication
 ✅ The dataset file questions_only.csv in the data/ folder
@@ -87,7 +87,7 @@ If your dataset is in a different location, specify:
 python models/model_1.py --hf_token YOUR_HF_TOKEN --dataset_path custom/path/to/questions_only.csv
 ```
 
-📖 Citation
+### **📖 Citation**
 If you use this dataset or research in your work, please cite:
 
 ```
@@ -100,21 +100,26 @@ If you use this dataset or research in your work, please cite:
 }
 ```
 
-🛠 License
+### **🛠 License**
 This repository is licensed under:
 
 MIT License for code: See LICENSE.
 Creative Commons Attribution 4.0 (CC BY 4.0) for the dataset and paper: CC BY 4.0.
-🤝 Contributing
+
+### **🤝 Contributing**
 We welcome contributions! To contribute:
 
-Fork the repository 🍴
-Create a new branch git checkout -b feature-new-analysis
-Make your changes and submit a pull request (PR
+1- Fork the repository 🍴
 
-📬 Contact
+2- Create a new branch ```git checkout -b feature-new-analysis```
+
+3- Make your changes and submit a pull request (PR)
+
+### **📬 Contact**
 For questions or collaborations, reach out via:
+
 📧 Email: mauricio.bernardo.silva@student.uva.nl
+
 📄 Website: https://www.linkedin.com/in/mauriciobernardodasilva/
 
 ---
