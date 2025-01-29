@@ -20,10 +20,7 @@ NumerFacts is the first benchmark dataset designed to evaluate **numerical factu
 ---
 
 ## 📂 Dataset  
-The **NumerFacts** dataset consists of factual numerical question-answer pairs extracted from **Wikidata** across multiple domains. The dataset is stored in CSV format and structured as follows:
-
-data/ │── raw/ # Raw dataset files │── processed/ # Cleaned, sampled, and combined datasets │── questions_only.csv # Final question set used in model evaluations
-
+The **NumerFacts** dataset consists of factual numerical question-answer pairs extracted from **Wikidata** across multiple domains. 
 
 ### **Dataset Columns**
 rowID, entity, entityLabel, domain, property, propertyLabel, value, roundedValue, unitLabel, sitelinks, dateModified, entityType, question, fileName, sheetName, days_since_last_modified
