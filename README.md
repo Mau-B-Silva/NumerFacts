@@ -64,46 +64,24 @@ rowID, entity, entityLabel, domain, property, propertyLabel, value, roundedValue
 ```sh
 git clone https://github.com/Mau-B-Silva/NumerFacts.git
 cd NumerFacts
+
 2️⃣ Install Dependencies
 If you have pip, install dependencies with:
 
-sh
-Copy code
 pip install -r requirements.txt
-For running models:
 
-sh
-Copy code
-pip install -r requirements_models.txt
-Or, if using Conda:
-
-sh
-Copy code
-conda env create -f environment.yml
-conda activate numerfacts
 3️⃣ Running the Models
 The model scripts require:
 ✅ A Hugging Face API token for authentication
 ✅ The dataset file questions_only.csv in the data/ folder
 
 Running a Model
-sh
-Copy code
-python models/model_1.py --hf_token YOUR_HF_TOKEN
-If your dataset is in a different location, specify:
+Run each model like this. Best to run one by one given computational cost. Should be easy to create a file to run them sequentially if needed. Using Llama as example:
+python models/llama.py --hf_token YOUR_HF_TOKEN
 
-sh
-Copy code
+If your dataset is in a different location, specify:
 python models/model_1.py --hf_token YOUR_HF_TOKEN --dataset_path custom/path/to/questions_only.csv
-Running All Models at Once
-sh
-Copy code
-python models/run_all_models.py --hf_token YOUR_HF_TOKEN
-Alternative: Set Hugging Face Token as an Environment Variable
-sh
-Copy code
-export HF_TOKEN=your_secret_token
-python models/model_1.py
+
 📖 Citation
 If you use this dataset or research in your work, please cite:
 
