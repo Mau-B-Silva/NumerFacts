@@ -61,14 +61,16 @@ rowID, entity, entityLabel, domain, property, propertyLabel, value, roundedValue
 ## ⚙️ Installation & Usage  
 
 ### **1️⃣ Clone the Repository**  
-```sh
+```
 git clone https://github.com/Mau-B-Silva/NumerFacts.git
 cd NumerFacts
+```
 
 2️⃣ Install Dependencies
 If you have pip, install dependencies with:
-
+```
 pip install -r requirements.txt
+```
 
 3️⃣ Running the Models
 The model scripts require:
@@ -77,10 +79,13 @@ The model scripts require:
 
 Running a Model
 Run each model like this. Best to run one by one given computational cost. Should be easy to create a file to run them sequentially if needed. Using Llama as example:
+```
 python models/llama.py --hf_token YOUR_HF_TOKEN
-
+```
 If your dataset is in a different location, specify:
+```
 python models/model_1.py --hf_token YOUR_HF_TOKEN --dataset_path custom/path/to/questions_only.csv
+```
 
 📖 Citation
 If you use this dataset or research in your work, please cite:
