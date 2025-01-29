@@ -70,9 +70,9 @@ pip install -r requirements.txt
 ```
 
 ### **3️⃣ Running the Models**
-The model scripts require:
-✅ A Hugging Face API token for authentication
-✅ The dataset file questions_only.csv in the data/ folder
+The model scripts require:  
+✅ **A Hugging Face API token for authentication**  
+✅ **The dataset file questions_only.csv in the data/ folder**  
 
 Running a Model
 Run each model like this. Best to run one by one given computational cost. Should be easy to create a file to run them sequentially if needed. Using Llama as example:
