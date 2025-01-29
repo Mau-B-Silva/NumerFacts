@@ -110,10 +110,11 @@ We welcome contributions! To contribute:
 
 Fork the repository 🍴
 Create a new branch git checkout -b feature-new-analysis
-Make your changes and submit a pull request (PR)
+Make your changes and submit a pull request (PR
+
 📬 Contact
 For questions or collaborations, reach out via:
-📧 Email: your-email@example.com
-📄 Website: yourwebsite.com
+📧 Email: mauricio.bernardo.silva@student.uva.nl
+📄 Website: https://www.linkedin.com/in/mauriciobernardodasilva/
 
 ---
