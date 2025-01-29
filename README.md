@@ -6,7 +6,7 @@
 ## 📌 Overview  
 NumerFacts is the first benchmark dataset designed to evaluate **numerical factuality** in large language models (LLMs). This study introduces a **question-answering** framework to systematically analyse how well pre-trained LLMs recall numerical facts without any enhancement techniques (e.g., retrieval-augmented generation or fine-tuning).
 
-📄 **Thesis:** [Final Version](./NumerFacts.pdf)  
+📄 **Paper:** [NumerFacts](./NumerFacts.pdf)  
 🔗 **GitHub Repository:** [NumerFacts](https://github.com/Mau-B-Silva/NumerFacts)
 
 ---
