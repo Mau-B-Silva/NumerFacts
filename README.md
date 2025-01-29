@@ -61,14 +61,14 @@ rowID, entity, entityLabel, domain, property, propertyLabel, value, roundedValue
 ## ⚙️ Installation & Usage  
 
 ### **1️⃣ Clone the Repository**  
-```
+```sh
 git clone https://github.com/Mau-B-Silva/NumerFacts.git
 cd NumerFacts
 ```
 
 2️⃣ Install Dependencies
 If you have pip, install dependencies with:
-```
+```sh
 pip install -r requirements.txt
 ```
 
@@ -90,8 +90,7 @@ python models/model_1.py --hf_token YOUR_HF_TOKEN --dataset_path custom/path/to/
 📖 Citation
 If you use this dataset or research in your work, please cite:
 
-bibtex
-Copy code
+'''
 @article{silva2025numerfacts,
   author = {Mauricio Bernardo da Silva},
   title = {Evaluating numerical factuality through question-answering in a zero-shot setting with NumerFacts as benchmark: The accuracy of large language models in numerical information recall},
@@ -99,6 +98,7 @@ Copy code
   year = {2025},
   url = {https://github.com/Mau-B-Silva/NumerFacts}
 }
+'''
 
 🛠 License
 This repository is licensed under:
